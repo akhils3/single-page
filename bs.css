@@ -1,0 +1,18 @@
+.q{
+    color: black;
+}
+
+.q:hover{
+    color: red;
+}
+.qqq{
+    color: red;
+}
+
+.boxs{
+    box-shadow: 9px 9px 10px black;
+}
+
+.ds{
+    display: block;
+}
