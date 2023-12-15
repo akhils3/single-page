@@ -34,6 +34,10 @@
     background-color: red;
 }
 
+.ml{
+    margin-left:150px; 
+}
+
 @media (max-width:700px)
 {
 
@@ -41,7 +45,15 @@
 
         position: relative; left: 20px;
     }
+
+    .ml{
+        margin-left:50px; 
+    }
+    
 }
+
+
+
 
 .boxs1{
     box-shadow: 0px 0px 0px;
