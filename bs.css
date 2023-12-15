@@ -16,3 +16,26 @@
 .ds{
     display: block;
 }
+
+.pos{
+
+
+    position: relative; left: 370px;
+}
+
+@media (max-width:700px)
+{
+
+    .pos{
+
+        position: relative; left: 230px;
+    }
+}
+
+.boxs1{
+    box-shadow: 0px 0px 0px;
+}
+
+.boxs1:hover{
+    box-shadow: 9px 9px 10px black;
+}
