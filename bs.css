@@ -30,6 +30,10 @@
 
 }
 
+
+
+
+
 .q1:hover{
     background-color: red;
 }
@@ -49,6 +53,12 @@
 .ro:hover{
     rotate: 30deg;
 }
+
+
+
+
+
+
 
 @media (max-width:700px)
 {
@@ -77,4 +87,12 @@
 
 .boxs1:hover{
     box-shadow: 9px 9px 10px black;
+}
+
+
+.t1{
+    background-image: url(pic/basil-leaf.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat
+
 }
