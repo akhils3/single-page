@@ -55,6 +55,15 @@
 }
 
 
+.vo{
+	overflow: hidden;
+}
+
+.qa{
+    margin-left: 90px;
+}
+
+
 
 
 
@@ -74,6 +83,10 @@
     
     .ml1{
         margin-left:0px; 
+    }
+
+    .qa{
+        margin-left: 50px;
     }
 
 }
@@ -96,3 +109,4 @@
     background-repeat: no-repeat
 
 }
+

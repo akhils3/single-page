@@ -10,7 +10,11 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="bs.css">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+
+
 </head>
 <body>
 
@@ -27,7 +31,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link mytxt qqq" href="#hm">HOME</a>
+            <a class="nav-link mytxt q" href="#hm">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mytxt q ms-md-2" href="#res">RESOURCES</a>
@@ -63,22 +67,24 @@
             <div class="" id="hm"></div>
         <div class="container mt-5">
             <div class="row">
-                <div class="col-md-6">
-                    <p class="display-2 ">High Quality Design Resources by Mark Ray</p>
+                <div class="col-md-7">
+                    <p class="display-2 " style="font-weight: 600;">High Quality Design Resources by Mark Ray</p>
                     <div class="mt-5">
-                        <span><i class="fa-brands fa-figma"></i>Figma
+                        <span><i class="fa-brands fa-figma"></i><span class="ms-2" style="font-weight: 700;"> Figma</span>
                     </span>
 
                    <span class="ms-5">
-                    <i class="fa-solid fa-photo-film"></i>photoshop</span>
+                    <i class="fa-solid fa-photo-film"></i><span class="ms-2"style="font-weight: 700;">photoshop</span></span>
                   </div>
                
                 <div class="mt-5"><p class="h5"> Handcrafted free and premium Figma and Photoshop design resources for your next digital product projects</p></div>
 
                 <div class="mt-5">
-                    <button class="btn btn-dark col-12 col-md-4">Browse Everything</button>
+                    <button class="btn btn-dark q1 col-12 col-md-4">Browse Everything</button>
+                    
                 </div>
-                <div class="container mt-4">
+                
+                <div class="container mt-5">
                     <div class="row">
                         <div class="col-md-4 col-4">
                             <h4>2M+</h4>
@@ -91,19 +97,20 @@
                         <div class="col-md-4 col-4">
                          
                             <h4>4.9</h4>
-                            <p>   User Rating</p>
+                            <p>User Rating</p>
                         </div>
                     </div>
                 </div>
                
           
  </div>
-    <div class="col-md-2"></div>
+    <div class="col-md-1"></div>
 
                 <div class="col-md-4 mt-5">
                     <img src="pic/design-resources-hero-image.jpg" alt="" class="col-md-12 col-10 rounded boxs ms-5 ms-md-0" style="height: 500px;">
                 </div>
                 <div class="mt-5"></div>
+                <div class="mt-0 mt-md-5"></div>
                 <div class="mt-0 mt-md-5"></div>
             </div>
         </div>
@@ -170,6 +177,9 @@
                 <div class="mt-5"></div>
             </div>
         </div>
+
+        
+
  
             <div class="container-fluid" id="res">
                 <h1 class="ms-md-5">Latest Resources</h1>
@@ -237,7 +247,7 @@
 
             <div class="container mt-5">
                 <div class="row"> 
-                    <div class="col-md-4 text-center col-4">
+                    <div class="col-md-4 text-center col-4 ">
                         <img src="pic/downloadable-design-resource-image-23-380x264.jpg" alt="" class="col-md-12  col-12">
                         <div class="mt-4">
                         <h6 class="q">A3 Poster Frame Mockup</h6>
@@ -272,7 +282,7 @@
             <div class="container-fluid mt-5">
                 <div class="row">
                     
-                    <div class="col-md-5 col-10 border border-black ms-5  rounded boxs1">
+                    <div class="col-md-5 col-10 border border-black qa  rounded boxs1">
                        
                         <i class="fa-brands fa-figma h1 mt-md-5 mt-2"></i>
                         <h5 class="mt-md-4">Figma resources</h5>
@@ -390,7 +400,7 @@
                     <div class="col-md-4 text-white mt-5"><h2>Premium Design Resources</h2>
                     <p class="mt-4">Vitae metus, porta convallis enim rhoncus, proin sit
                         praesent augue nec libero habitant bibendum.</p>
-                        <button class="btn border text-white mt-3 q1">Browse Premium Files</button>
+                        <button class="btn border text-white mt-3 q1" data-bs-toggle="modal" data-bs-target="#myModal">Browse Premium Files</button>
                       
                 </div>
                     <div class="col-md-2"></div>
@@ -502,8 +512,8 @@
             <div class="col-md-2"></div>
             <div class=" col-md-7 ml1">
                 <form>
-                <input type="email" name="" id="" class="col-md-8 ml1 ml1 col-12 rounded" style="height: 40px;">
-                <button class="btn btn-dark q1 col-12 mt-3 col-md-3 mt-md-0 rounded">subscribe</button>
+                <input type="email" name="" placeholder="enter your email address" id="" class="col-md-8 ml1 ml1 col-12 px-3 rounded" style="height: 40px;">
+                <button class="btn btn-dark q1 col-12 mt-3 col-md-3 mt-md-0 rounded p-2">subscribe</button>
                   </form>
             </div>
             <div class="col-md-2"></div>
@@ -517,7 +527,7 @@
     <div class="container" id="con">
         <div class="row">
             <div class="col-md-3 text-md-start text-center">
-                <img src="pic/site-logo-1.svg" alt="">
+            <a href="index.html">    <img src="pic/site-logo-1.svg" alt=""></a>
             </div>
             <div class="col-md-6 text-center mt-2 mt-md-0">
                 <p>© 2023 Digital Product Store | Powered by Digital Product Store</p>
@@ -532,12 +542,40 @@
     </div>
 
 
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">
+        
+
+            <img src="pic/downloadable-design-resource-image-19-380x264.jpg" alt="" class="col-md-12 col-12 ms-4"></h4>
+       
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eos iusto aperiam obcaecati beatae minima, quasi praesentium quis sequi hic! Consequuntur sequi inventore fugit quibusdam? Similique rem blanditiis unde illo?</p>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+
   
 
 
 </body>
 
 </html>
-
 
 
